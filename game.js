@@ -40,6 +40,7 @@ fetch(
         formattedQuestion["choice" + (index + 1)] = choice;
       });
 
+      
       return formattedQuestion;
     });
   startGame();
